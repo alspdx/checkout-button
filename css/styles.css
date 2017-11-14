@@ -1,7 +1,3 @@
-.body {
-  height: 100vh;
-}
-
 a {
   display: block;
   position: relative;
@@ -9,7 +5,7 @@ a {
   width: 246px;
   text-align: center;
   background: linear-gradient(#ddd, #bbb);
-  box-shadow: inset 0px 29px 0px 0px rgba(226, 226, 226, 0.5), 0px 2px 4px 0px #555;
+  box-shadow: inset 0px 29px 0px 0px rgba(226, 226, 226, 0.5), 0px 1px 3px 1px #555;
   color: #555555;
   text-decoration: none;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
@@ -17,8 +13,7 @@ a {
   font-size: 23px;
   font-weight: 600;
   text-transform: uppercase;
-  border: 1px solid #999;
-  border-radius: 8px;
+  border-radius: 10px;
   line-height: 58px;
   letter-spacing: .6px;
   top: 40px;
@@ -30,8 +25,8 @@ a:after {
   top: -9px;
   left: -9px;
   content: "";
-  height: 74px;
-  width: 261px;
+  height: 72px;
+  width: 260px;
   background: #ccc;
   z-index: -1;
   border: 2px solid white;
